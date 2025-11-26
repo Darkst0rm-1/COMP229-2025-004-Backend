@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+//Updated upstream
 var express = require('express');
 var createError = require('http-errors');
 var logger = require('morgan');
@@ -47,7 +47,6 @@ app.listen(3000);
 console.log('Server running at http://localhost:3000/');
 
 module.exports = app;
-=======
 const http = require('http');
 
 http.createServer((req, res) => {
@@ -59,4 +58,4 @@ res.end('Hello World');
 }).listen(3000);
 
 console.log('Server running at http://localhost:3000/');
->>>>>>> Stashed changes
+// Stashed changes
